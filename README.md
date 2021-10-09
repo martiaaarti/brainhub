@@ -6,9 +6,10 @@ The application is created using following technologies:
 
 - React
 - TypeScript
-- MongoDB
+- MongoDB and Mongoose
 - Node.js
 - Express
+- Jest
 
 ## Installation and application launch
 
@@ -40,6 +41,7 @@ REACT_APP_BASE_URL=
 ## Important notes
 
 Ensure that the front-end application is pointing to correct url where back-end side resides.
+Remember to create new collection in MongoDB.
 
 ## Further development plans
 
