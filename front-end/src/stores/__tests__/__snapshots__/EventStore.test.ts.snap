@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventStore actions date can be set 1`] = `"2021-06-01T00:00:00.000+02:00"`;
+
+exports[`EventStore can create an instance 1`] = `
+Object {
+  "date": null,
+  "email": "test123@gmail.com",
+  "firstName": "Grażyna",
+  "lastName": "Nowak",
+}
+`;

@@ -15,7 +15,7 @@ The application is created using following technologies:
 To run the application following steps should be followed:
 
 - Make sure you are using the correct node version, if not run `nvm install`
-- Go to server folder
+- Go to back-end folder
 - Install required packages by running `npm install` command
 - Blueprint file for `.env` file called `.envexample` with all necessary variables is provided in root directory. Ensure that following enviornmental variables in `.env` file are filled before running the application.
 
@@ -26,8 +26,8 @@ MONGO_PATH=
 PORT=
 ```
 
-- To launch the server side application use `npm run dev` command
-- Go to client folder
+- To launch the back-end side application use `npm run dev` command
+- Go to front-end folder
 - Install required packages by running `yarn install` command
 - Blueprint file for `.env` file called `.envexample` with all necessary variables is provided in root directory. Ensure that following enviornmental variables in `.env` file are filled before running the application.
 
@@ -35,17 +35,17 @@ PORT=
 REACT_APP_BASE_URL=
 ```
 
-- To launch the client side application use `yarn start` command
+- To launch the front-end side application use `yarn start` command
 
 ## Important notes
 
-Ensure that the client application is pointing to correct url where server side resides.
+Ensure that the front-end application is pointing to correct url where back-end side resides.
 
 ## Further development plans
 
-- [x] Implement support for POST action with view for adding new event (including fronted tests),
+- [x] Implement support for POST action with view for adding new event,
 - [x] Implement validation for new event
-- [ ] Test backed,
+- [x] Tests,
 - [ ] Individual user support,
 - [ ] Application containerization,
 - [ ] Support for actions GET, PUT, DELETE with related views,
