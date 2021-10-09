@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Recruitment task for Brainhub",
+  "main": "./src/server.ts",
+  "scripts": {
+    "dev": "ts-node ./src/server.ts",
+    "test": "jest --watchAll"
+  },
+  "author": "Martyna Zabska",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "envalid": "^7.2.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "mongodb-memory-server": "^7.4.3",
+    "mongoose": "^6.0.8",
+    "supertest": "^6.1.6",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/supertest": "^2.0.11",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.5",
+    "ts-jest": "^27.0.5"
+  }
+}
